@@ -30,5 +30,10 @@ namespace Practice2
         {
             fr2.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            fr2.Show();
+        }
     }
 }

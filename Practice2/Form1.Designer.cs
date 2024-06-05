@@ -38,7 +38,7 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             button1 = new Button();
-            button2 = new Button();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // label1
@@ -133,22 +133,24 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
+            // linkLabel1
             // 
-            button2.Location = new Point(137, 235);
-            button2.Name = "button2";
-            button2.Size = new Size(105, 28);
-            button2.TabIndex = 10;
-            button2.Text = "Налаштування";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F);
+            linkLabel1.Location = new Point(127, 237);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(115, 21);
+            linkLabel1.TabIndex = 10;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Налаштування";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(254, 275);
-            Controls.Add(button2);
+            Controls.Add(linkLabel1);
             Controls.Add(button1);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -177,6 +179,6 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Button button1;
-        private Button button2;
+        private LinkLabel linkLabel1;
     }
 }
