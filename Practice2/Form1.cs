@@ -22,8 +22,8 @@ namespace Practice2
             CheckBox ch2 = (CheckBox)fr2.Controls["checkBox2"];
             textBox2.Visible = ch1.Checked;
             textBox3.Visible = ch2.Checked;
-            label2.Visible = ch1.Checked;
-            label3.Visible = ch2.Checked;
+            label3.Visible = ch1.Checked;
+            label4.Visible = ch2.Checked;
         }
 
         private void button2_Click(object sender, EventArgs e)

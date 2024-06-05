@@ -70,6 +70,7 @@
             label3.Size = new Size(17, 21);
             label3.TabIndex = 2;
             label3.Text = "х";
+            label3.Visible = false;
             // 
             // label4
             // 
@@ -80,6 +81,7 @@
             label4.Size = new Size(18, 21);
             label4.TabIndex = 3;
             label4.Text = "у";
+            label4.Visible = false;
             // 
             // label5
             // 
@@ -104,6 +106,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 6;
+            textBox2.Visible = false;
             // 
             // textBox3
             // 
@@ -111,6 +114,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 7;
+            textBox3.Visible = false;
             // 
             // textBox4
             // 
